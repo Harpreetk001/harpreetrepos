@@ -36,4 +36,4 @@ jobs:
         python-version: '3.12' # Use the Python version you need
 
     - name: Run testingcode.py 2
-      run: python testing
+      run: python testingcode.py
