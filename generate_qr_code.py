@@ -1,5 +1,3 @@
-# Python script to generate QR code and save it as an image
-
 import qrcode
 
 def generate_qr_code(data, filename):
@@ -16,6 +14,8 @@ def generate_qr_code(data, filename):
     img.save(filename)
 
 if __name__ == "__main__":
-    data = "https://example.com"  # Replace with your data
-    filename = "qrcode.png"  # Replace with desired filename
-    generate_qr_code(data, filename)
+    # Example data for QR code
+    data = "Gurmeet Singh"
+
+    # Generate QR code image
+    generate_qr_code(data, "qrcode.png")
